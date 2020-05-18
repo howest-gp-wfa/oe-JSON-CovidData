@@ -1,4 +1,4 @@
-data = {
+data = `{
     "Global": {
       "NewConfirmed": 96359,
       "TotalConfirmed": 4516222,
@@ -57,4 +57,4 @@ data = {
             "TotalRecovered": 59719,
             "Date": "2020-05-15T07:24:02Z"
           }  
-    ]};
+    ]}`;
