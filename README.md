@@ -4,10 +4,10 @@ Let op onderstaande zaken:
 * Maak zo veel mogelijk gebruik van arrays
 * Werk met logisch opgesplitste functies
 
-###Mogelijke uitbreiding
+### Mogelijke uitbreiding
 Wie extra wil oefenen kan gebruik maken van onderstaande links om de JSON data effectief binnen te halen via een API call.
 * https://api.covid19api.com/summary
-###Nog mogelijker uitbreiding
+### Nog mogelijker uitbreiding
 Wie echt ver wil gaan kan proberen om de data te visualiseren door middel van een javascript chart
 * https://www.chartjs.org/docs/latest/
 
