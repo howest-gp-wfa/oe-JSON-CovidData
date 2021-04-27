@@ -13,7 +13,9 @@
   --lightgreen: #EAF5F5;
   --black: #000000;
 }
-
+img{
+  padding: 15px;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--white);
