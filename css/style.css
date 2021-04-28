@@ -16,6 +16,17 @@
 img{
   padding: 15px;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--white);
