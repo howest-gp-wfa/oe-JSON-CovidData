@@ -5,10 +5,16 @@ Let op onderstaande zaken:
 * Werk met logisch opgesplitste functies
 * Let op gerbuik van JSON object
 
-### Mogelijke uitbreiding
+### Mogelijke uitbreiding 1
 Wie extra wil oefenen kan gebruik maken van onderstaande links om de JSON data effectief binnen te halen via een API call.
 * https://api.covid19api.com/summary
-### Nog mogelijker uitbreiding
+
+### Mogelijke uitbreiding 2
+Toon de data van het geselecteerd land in een nieuwe pagina detail.html.
+Kies zelf hoe je de uitvoer van de data verzorgd.
+
+
+### Nog mogelijkere uitbreiding 3
 Wie echt ver wil gaan kan proberen om de data te visualiseren door middel van een javascript chart
 * https://www.chartjs.org/docs/latest/
 
