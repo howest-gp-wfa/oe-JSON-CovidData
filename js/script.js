@@ -1,24 +1,24 @@
 "use strict";
 
 //declare global vars here
-var divGlobalData;
-var slcCountries;
-var divCountriesImages;
-var divCountryData;
-var JsonCountriesData;
+let divGlobalData;
+let slcCountries;
+let divCountriesImages;
+let divCountryData;
+let jsonCountriesData;
 const apiUrl = 'https://howest-gp-wfa.github.io/oe-JSON-CovidData/api/covid.json';
 //wait for document load
-window.addEventListener('load',Initialize);
+window.addEventListener('load',initialize);
 
-function Initialize()
+function initialize()
 {
-    BindElements();
-    AddEventListeners();
-    LoadCountriesFromJson();
-    FillCountriesList();
+    bindElements();
+    addEventListeners();
+    loadCountriesFromJson();
+    fillCountriesList();
 }
 
-function BindElements()
+function bindElements()
 {
     divGlobalData = document.querySelector('#divGlobalData');
     divCountriesImages = document.querySelector('#divCountriesImages');
@@ -26,30 +26,30 @@ function BindElements()
     slcCountries = document.querySelector('#slcCountries'); 
 }
 
-function FillCountriesList(data)
+function fillCountriesList(data)
 {
     //fill the selectlist with the countries
 }
 
-function AddEventListeners()
+function addEventListeners()
 {
     slcCountries.addEventListener('change',ShowCountryData);
 }
 
-async function LoadCountriesFromJson()
+async function loadCountriesFromJson()
 {
-    //load the countries data from covid.js into JsonCountriesData
+    //load the countries data from covid.js into jsonCountriesData
     
     //or from github page 
     
 }
 
-async function LoadCountriesFromFetch(url)
+async function loadCountriesFromFetch(url)
 {
      //use fetch to load data and return it   
 }
 
-function ShowCountryData()
+function showCountryData()
 {
     //show the selected country data
 }
