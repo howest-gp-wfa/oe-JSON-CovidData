@@ -3,7 +3,7 @@ Maak een applicatie die aan de hand van de bijgeleverde Json data (covid.js) een
 Let op onderstaande zaken:
 * Maak zo veel mogelijk gebruik van arrays
 * Werk met logisch opgesplitste functies
-* Let op gerbuik van JSON object
+* Let op gebruik van JSON object
 
 ### Mogelijke uitbreiding 1
 Wie extra wil oefenen kan gebruik maken van onderstaande links om de JSON data effectief binnen te halen via een API call.
